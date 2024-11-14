@@ -1,4 +1,4 @@
-"""
+
 Documentation for Creating AWS Lambda Layers with Docker
 ========================================================
 
@@ -40,4 +40,4 @@ python main.py --libraries requests numpy --python_version 3.8 --layer_name my_l
 - Ensure that you have proper AWS credentials configured to use `boto3` for uploading the layer.
 - The Docker container will be stopped and removed automatically after the script completes.
 - The script requires network access to download the Python libraries and interact with AWS services.
-"""
+
